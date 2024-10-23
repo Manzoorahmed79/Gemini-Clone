@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gemini-clone</title>
+    <title>Gemini Clone</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -21,23 +21,19 @@
         Recent
         <div class="recent-history">
           <p>
-            <span class="material-symbols-outlined history-tab">
-              chat_bubble </span
+            <span class="material-symbols-outlined history-tab"> chat_bubble </span
             >Hello World
           </p>
           <p>
-            <span class="material-symbols-outlined history-tab">
-              chat_bubble </span
+            <span class="material-symbols-outlined history-tab"> chat_bubble </span
             >Hello World
           </p>
           <p>
-            <span class="material-symbols-outlined history-tab">
-              chat_bubble </span
+            <span class="material-symbols-outlined history-tab"> chat_bubble </span
             >Hello World
           </p>
           <p>
-            <span class="material-symbols-outlined history-tab">
-              chat_bubble </span
+            <span class="material-symbols-outlined history-tab"> chat_bubble </span
             >Hello World
           </p>
         </div>
@@ -54,8 +50,7 @@
             ><span class="text">Activity</span>
           </p>
           <p>
-            <span class="material-symbols-outlined settings-icon">
-              settings </span
+            <span class="material-symbols-outlined settings-icon"> settings </span
             ><span class="text">Settings</span>
           </p>
         </div>
@@ -96,26 +91,16 @@
       </div>
       <div class="suggestions">
         <div>
-          Give me ideas for what to do with what's in this script?<span
-            class="material-symbols-outlined"
-          >
-            description
-          </span>
-        </div>
-
-        <div>
-          Outline an organized & logical sales pitch for a new product<span
-            class="material-symbols-outlined"
-          >
-            draw
-          </span>
+          Give me ideas for what to do with what's in this script
+          <span class="material-symbols-outlined"> description </span>
         </div>
         <div>
-          Write a product description for a new type of toothbrush<span
-            class="material-symbols-outlined"
-          >
-            draw
-          </span>
+          Outline an organized & logical sales pitch for a new product
+          <span class="material-symbols-outlined"> draw </span>
+        </div>
+        <div>
+          Write a product description for a new type of toothbrush
+          <span class="material-symbols-outlined"> draw </span>
         </div>
         <div>
           Help write SQL to generate a report
@@ -126,47 +111,19 @@
       <div class="answer2"></div>
       <div class="prompt">
         <div class="textarea" contenteditable="true">Enter a Prompt Here</div>
-        <span class="material-symbols-outlined add_img">
-          add_photo_alternate
-        </span>
+        <span class="material-symbols-outlined add_img"> add_photo_alternate </span>
         <span class="material-symbols-outlined mic"> mic </span>
         <span class="material-symbols-outlined submit"> send </span>
         <span class="material-symbols-outlined stop"> stop_circle </span>
       </div>
     </div>
-  </body>
-  <script type="importmap">
-    {
-      "imports": {
-        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
       }
-    }
-  </script>
-  <script type="module">
-    import { GoogleGenerativeAI } from "@google/generative-ai";
-    // document.querySelector("button").addEventListener("click", () => {
-    //   console.log("hello");
-    //   document.querySelector(".sidebar").style.width = "50px";
-    // });
-
-    // Access your API key (see "Set up your API key" above)
-    // const genAI = new GoogleGenerativeAI(
-    //   "AIzaSyDkM8Z_kNwDwXMVo2lySKyh-90iKiimc4s"
-    // );
-
-    // async function run() {
-    //   // The Gemini 1.5 models are versatile and work with both text-only and multimodal prompts
-    //   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
-    //   const prompt = "Write a story about a magic backpack.";
-
-    //   const result = await model.generateContent(prompt);
-    //   const response = await result.response;
-    //   const text = response.text();
-    //   console.log(text);
-    // }
-
-    // run();
-  </script>
-  <script type="module" src="index.js"></script>
+    </script>
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
